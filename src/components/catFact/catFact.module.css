@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+    /* background-color: bisque; */
+    align-items: center;
+   
+}
+
+
+.piece {
+    background-color: "lightblue";
+    height:"300px";
+    display: "flex";
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.piece img {
+    max-width: 300px ;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}

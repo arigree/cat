@@ -24,6 +24,12 @@ export default function Nav() {
         <li>
           <a href="/foods">Cat Foods</a>
         </li>
+        <li>
+          <a href="/facts">Fun Facts</a>
+        </li>
+        <li>
+          <a href="/videos">Videos</a>
+        </li>
       </ul>
     </nav>
   );

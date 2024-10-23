@@ -1,0 +1,82 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .catShowcaseImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    margin: 20px auto;
+    max-width: 1500px;
+    padding-left: 120px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 20px;
+    position: relative; 
+  }
+  
+  .box1, .box2, .box3, .box4, .box5, .box6 {
+    width: 400px;
+    height: 400px;
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.1s;
+    position: relative; 
+  }
+  
+  .box1 { background-image: url("../../public/bss.jpg"); 
+          border: 3px solid rgb(84, 60, 60)}
+  .box2 { background-image: url("../../public/rd.jpg");
+          border: 3px solid rgb(84, 60, 60) }
+  .box3 { background-image: url("../../public/bp.webp");
+          border: 3px solid rgb(84, 60, 60)  }
+  .box4 { background-image: url("../../public/ab.avif");
+          border: 3px solid rgb(84, 60, 60) }
+  .box5 { background-image: url("../../public/bi.jpg"); 
+          border: 3px solid rgb(84, 60, 60)}
+  .box6 { background-image: url("../../public/aby.jpg");
+          border: 3px solid rgb(84, 60, 60) }
+  
+  .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover {
+    animation: twist 0.5s;
+  }
+  .popText {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    opacity: 0; 
+    font-size: 30px; 
+    font-weight: bold; 
+    color: rgb(52, 43, 36); 
+    transition: opacity 0.3s; 
+    z-index: 1; 
+    border: 2px solid rgb(78, 56, 56);
+    background-color: beige;
+    text-align: center;
+  }
+  
+  .box1:hover .popText,
+  .box2:hover .popText,
+  .box3:hover .popText,
+  .box4:hover .popText,
+  .box5:hover .popText,
+  .box6:hover .popText {
+    opacity: 1; /* Fade in on hover */
+  }
+  
+  @keyframes twist {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(-10deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+  }

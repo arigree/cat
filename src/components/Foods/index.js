@@ -1,3 +1,5 @@
+"use client";
+
 const Foods = () => {
     const foods = [
       { brand: "Royal Canin", type: "Dry Food" },

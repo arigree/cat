@@ -13,10 +13,10 @@ export default function Nav() {
           <a href="/">Funny Videos</a>
         </li>
         <li>
-          <a href="/">Cat Cafes</a>
+          <a href="/catCafe">Cat Cafes</a>
         </li>
         <li>
-          <a href="/">Cat Breeds</a>
+          <a href="/catBreeds">Cat Breeds</a>
         </li>
         <li>
           <a href="/vets">Cat Vets</a>

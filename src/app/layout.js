@@ -2,7 +2,7 @@ import Nav from "@/components/Nav";
 import "./globals.css";
 
 export const metadata = {
-  title: "Week 8",
+  title: "Cat Group Project 🐈‍⬛",
   description: "App state management",
 };
 

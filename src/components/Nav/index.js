@@ -7,13 +7,22 @@ export default function Nav() {
     <nav className={navStyles.mainNav}>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/">Fun Facts</a>
         </li>
         <li>
-          <a href="/">About</a>
+          <a href="/">Funny Videos</a>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <a href="/">Cat Cafes</a>
+        </li>
+        <li>
+          <a href="/">Cat Breeds</a>
+        </li>
+        <li>
+          <a href="/vets">Cat Vets</a>
+        </li>
+        <li>
+          <a href="/foods">Cat Foods</a>
         </li>
       </ul>
     </nav>

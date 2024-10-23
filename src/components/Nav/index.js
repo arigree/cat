@@ -15,6 +15,12 @@ export default function Nav() {
         <li>
           <a href="/">Contact</a>
         </li>
+        <li>
+          <a href="/facts">Fun Facts</a>
+        </li>
+        <li>
+          <a href="/videos">Videos</a>
+        </li>
       </ul>
     </nav>
   );

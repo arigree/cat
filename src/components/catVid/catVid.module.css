@@ -1,0 +1,27 @@
+.piece {
+    background-color: "lightblue";
+    height:"300px";    
+    width: 400px;
+   
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.block iframe {
+    width: 720px;
+    height: 500px;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.piece p {
+    font-size: 30px;
+}
+

@@ -16,7 +16,7 @@ const Foods = () => {
   
     return (
       <div>
-        <h1>Cat Foods</h1>
+        <h1>Cat Foods😋</h1>
         {Object.entries(categories).map(([type, brands], index) => (
           <div key={index}>
             <h2>{type}</h2>

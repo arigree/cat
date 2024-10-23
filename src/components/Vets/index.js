@@ -11,7 +11,7 @@ const Vets = () => {
     ];
     return(
         <div className={styles.vetsContainer}>
-            <h1>Cat Vets</h1>
+            <h1>Cat Vets💉</h1>
             <ul>
                 {vets.map((vet, index) =>
                 <li key={index}>

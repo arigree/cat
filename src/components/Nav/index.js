@@ -6,15 +6,8 @@ export default function Nav() {
 
     <nav className={navStyles.mainNav}>
       <ul>
-        <li>
-          <a href="/">Fun Facts</a>
-        </li>
-        <li>
-          <a href="/">Funny Videos</a>
-        </li>
-        <li>
-          <a href="/catCafe">Cat Cafes</a>
-        </li>
+      
+       
         <li>
           <a href="/catBreeds">Cat Breeds</a>
         </li>

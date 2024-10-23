@@ -1,6 +1,6 @@
 .mainNav{
     height: 50px;
-    background-color: darkolivegreen;
+    background: linear-gradient(#C3AA97, #b69988);
 
 }
 .mainNav ul{
@@ -17,5 +17,5 @@
 .mainNav ul li a {
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: black;
 }
